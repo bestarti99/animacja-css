@@ -1,0 +1,60 @@
+body{
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+}
+
+
+.kwadrat {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+
+}
+
+#szeroki {
+    background-color: red;
+/*     transitio:  dodajemy przed hover  */
+    transition: width 2s ease-in 0.2s;
+
+}
+
+#szeroki:hover {
+    background-color: red;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+}
+
+#dlugi {
+    background-color: blue;
+    transition: height 2s ease-out 0.2s;
+
+}
+
+#dlugi:hover {
+    background-color: blue;
+    height: 300px;
+    margin-bottom: 20px;
+    
+}
+
+#caly {
+    background-color: green;
+    transition: all 2s ease-out 0.2s;
+
+}
+
+#dlugi: caly {
+    background-color: green;
+    height: 300px;
+    widows: 300px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
